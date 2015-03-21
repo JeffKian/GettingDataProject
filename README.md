@@ -61,9 +61,9 @@ Call the function for the train data set
 
 ## Merge the test and train files into a single data set
 
-## You now have a tidy data set that has relevant factor variables describing each record
-## These include subjectID, Activity Description and a datasetflag indicating where the data came from
-## The test and train data sets have been merged but there is an indicator showing where the data came from
+You now have a tidy data set that has relevant factor variables describing each record
+These include subjectID, Activity Description and a datasetflag indicating where the data came from
+The test and train data sets have been merged but there is an indicator showing where the data came from
 
 ## Calculate the Mean forall variable columns and Group by subject ID,activity description and data set flag 
 Create a column index variable that has indexes the measurement columns
@@ -71,5 +71,5 @@ Create a column index variable that has indexes the measurement columns
 Calculate the mean of the each of the variable columns using the column index vector
 Group the results by the subjectID, Activity description and the dataset it came from 
 
-## Write the data to a new data frame called filemean
+##Write the data to a new data frame called filemean
 ## Export the filemean data frame to a text file using write.table function 
